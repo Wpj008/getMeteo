@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GetMeteo",
+  "version": "1.0",
+  "description": "Extension avec formulaire dans le popup",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/logo.png",
+      "32": "icons/logo.png",
+      "48": "icons/logo.png",
+      "128":  "icons/logo.png"
+    }
+  },
+  "icons": {
+    "16":  "icons/logo.png",
+    "32":  "icons/logo.png",
+    "48":  "icons/logo.png",
+    "128":  "icons/logo.png"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
